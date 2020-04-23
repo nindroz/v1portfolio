@@ -7,3 +7,48 @@ nav a{
   padding-left: 30px;
   color:black !important;
 }
+.container * {
+  font-size: 30px;
+  text-align: center;
+  text-emphasis: filled;
+}
+
+.text-left{
+  padding-left:140px !important;
+}
+
+.text-right{
+  padding-right:140px !important;
+}
+
+div a{
+  color:black !important;
+}
+
+@media (max-width: 1200px) {
+  div img {
+    visibility: hidden;
+  }
+}
+
+li {
+  text-align: left;
+}
+
+div ul{
+  text-align: left;
+}
+
+.china li, .vietnam li{
+  text-align: left;
+}
+.col{
+  padding-left: 150px;
+}
+.list-title{
+  text-align: left;
+}
+
+.table{
+  margin-top: 50px !important;
+}
