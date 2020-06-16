@@ -52,3 +52,12 @@ div ul{
 .table{
   margin-top: 50px !important;
 }
+
+.icons{
+  list-style-type: none;
+  float: right;
+}
+
+.icons li > a{
+  color:"green" !important;
+}
