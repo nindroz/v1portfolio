@@ -7,11 +7,11 @@ nav a{
   padding-left: 30px;
   color:black !important;
 }
-.container * {
+/* .container * {
   font-size: 30px;
   text-align: center;
   text-emphasis: filled;
-}
+} */
 
 .text-left{
   padding-left:140px !important;
@@ -55,10 +55,18 @@ div ul{
   float: right;
 }
 
-.icons li > a{
-  color:"green" !important;
+.card{
+  margin: 0 auto;
+  float:none;
+  margin-bottom: 10px; 
 }
 
-.card{
-  margin: 20px;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    /* .container{
+      column-count: 1;
+    } */
 }
