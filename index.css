@@ -54,7 +54,6 @@ div ul{
 
 .card{
   margin: 10px !important;
-  height: 300px;
   margin-left: 50px !important;
 }
 
@@ -64,8 +63,8 @@ div ul{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .card{
-      font-size: 150%;
-      width: 100% !important;
+      font-size: 250%;
+      width: 48rem !important;
     }
     .mainTitle{
       font-size: 150px;
