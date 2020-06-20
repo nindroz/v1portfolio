@@ -1,3 +1,11 @@
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  
+}
+
+
 .mainTitle{
   text-align: center;
   padding: 20px;
@@ -5,14 +13,8 @@
 nav a{
   text-align: left;
   padding-left: 30px;
-  color:black !important;
+  color:currentColor;
 }
-/* .container * {
-  font-size: 30px;
-  text-align: center;
-  text-emphasis: filled;
-} */
-
 .text-left{
   padding-left:140px !important;
 }
@@ -57,7 +59,20 @@ div ul{
   margin-left: 50px !important;
 }
 
+:root{
+  --grey: #343a40;
+  --white: #ffffff;
+}
 
+.light{
+    --bg: var(--white);
+    --text: var(--grey);
+}
+
+.dark{
+    --bg: var(--grey);
+    --text: var(--white);
+}
 @media only screen 
   and (max-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2)
