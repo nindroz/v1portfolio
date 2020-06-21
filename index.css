@@ -2,10 +2,15 @@
 body{
   background: var(--bg);
   color: var(--text);
-  
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
 
-
+.btun {
+  all: unset;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
 .mainTitle{
   text-align: center;
   padding: 20px;
@@ -60,8 +65,11 @@ div ul{
 }
 
 :root{
-  --grey: #343a40;
+  --grey: #1e1f21;
   --white: #ffffff;
+}
+.bg-dark{
+  background-color: var(--grey) !important;
 }
 
 .light{
@@ -77,6 +85,13 @@ div ul{
   and (max-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .container{
+      font-size: 50px;
+    }
+    .list-title{
+      font-size: 50px;
+      font-weight: bold;
+    }
     .card{
       font-size: 250%;
       width: 48rem !important;
