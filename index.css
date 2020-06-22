@@ -19,6 +19,11 @@ nav a{
   text-align: left;
   padding-left: 30px;
   color:currentColor;
+
+}
+
+nav a:hover{
+  color: currentColor;
 }
 .text-left{
   padding-left:140px !important;
@@ -85,7 +90,8 @@ div ul{
   and (max-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .container{
+    .container
+    {
       font-size: 50px;
     }
     .list-title{
